@@ -51,6 +51,19 @@
     margin-left: 25%;
     background-color: #fcfcfd;
 }
+.tick{
+    position: absolute;
+    Width:25.46px;
+    Height:25.45px;
+    left:55px;
+    border-radius: 50%;
+    bottom:20px;
+    z-index:2;
+
+
+background: #0788F5;
+transform: rotate(22.5deg);
+}
 .top-color{
     background-image: linear-gradient(45deg,#9d25e7, #fde57a);
     width:100%;
@@ -69,7 +82,7 @@
 .icon-container{
     display: flex;
     flex-direction: column;
-    padding-top:6vmin;
+    padding-top: 20px;
     padding-left:2vmin;
     justify-content: space-between;
     width:9vmin;
@@ -117,8 +130,8 @@ i{
 
 }
 .settings-item{
-    padding-top:1em;
-    padding-left:1em;
+    margin-top:1em;
+    margin-left:1em;
     align-self: stretch;
     font-size:2vmin;
     font-family: 'Inter' sans-serif;
@@ -127,11 +140,19 @@ i{
     flex-basis: auto;
 
 }
+.settings-icon:hover{
+    background-color: #f9fafb;
+    cursor:pointer;
+    border-radius: 6px;
+}
 .settings-icon{
     display: flex;
     justify-content: flex-start;
-    padding-left:2em;
-    padding-top:1em;
+    margin-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left:1em;
+    margin-right: 1em;
     align-self: stretch;
     flex-shrink: 1;
     font-size: 2vmin;
@@ -146,6 +167,7 @@ i{
     align-items: flex-start;
     flex-wrap: wrap;
     margin-bottom: 20px;
+    position: relative;
 
 }
 .profile-image img{
