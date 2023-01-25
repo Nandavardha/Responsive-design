@@ -331,6 +331,10 @@ padding: 10px 16px;
 label{
     font-size: 2vmin;
 }
+::placeholder{
+    color: black;
+    
+}
 .user-container{
     padding-left: 16px;
     margin-bottom: 10px;
@@ -341,7 +345,7 @@ label{
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     border-right:1px solid gray;
-    margin-right: -5px;
+    
 
 
 }
